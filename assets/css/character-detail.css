@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b2f;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#character-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #1a1a2e;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#character-detail img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #e43f5a;
+}
+
+#character-detail h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #e43f5a;
+}
+
+#character-detail p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+#character-detail .abilities {
+    margin-top: 20px;
+}
+
+#character-detail .abilities h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #e43f5a;
+}
+
+#character-detail .abilities ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+#character-detail .read-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e43f5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#character-detail .read-more:hover {
+    background-color: #d1344b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #162447;
+    color: white;
+    border-top: 2px solid #e43f5a;
+}
+
+footer a {
+    color: #e43f5a;
+    text-decoration: none;
+}

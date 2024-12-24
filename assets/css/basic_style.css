@@ -184,7 +184,7 @@ button {
     justify-content: center;
     position: relative;
     width: 240px;
-    height: 340px;
+    height: 355px;
     border-radius: 18px;
     font-size: 22px;
     font-weight: bold;
@@ -199,11 +199,23 @@ button {
     padding: 20px;
 }
 
-.character-card img {
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
     width: 150%;
-    height: auto;
+    height: 90%;
+    text-align: center;
+}
+
+.character-card img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
     background-color: transparent;
     transition: filter 0.3s ease-in-out;
+    display: block;
+    margin: 0 auto;
 }
 
 .character-card h3 {

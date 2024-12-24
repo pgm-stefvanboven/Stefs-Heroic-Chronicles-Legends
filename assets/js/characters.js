@@ -7,15 +7,14 @@ async function loadCharacters() {
         gallery.innerHTML = ''; // Maak de gallery leeg
 
         characters.forEach(character => {
-            const image = new Image();
-            image.src = character.image;
             const card = document.createElement('div');
             card.classList.add('character-card');
             card.innerHTML = `
-            <a href="character-detail.html?id=${character.id}"></a>
-            <img src="${character.image}" alt="${character.name}">
-            <h3>${character.name}</h3>
-                `;
+                <a href="character-detail.html?id=${character.id}" class="card-link">
+                    <img src="${character.image}" alt="${character.name}">
+                    <h3>${character.name}</h3>
+                </a>
+            `;
             gallery.appendChild(card);
         });
     } catch (error) {
