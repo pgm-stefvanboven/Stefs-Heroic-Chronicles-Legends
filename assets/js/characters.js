@@ -12,8 +12,9 @@ async function loadCharacters() {
             const card = document.createElement('div');
             card.classList.add('character-card');
             card.innerHTML = `
-                    <img src="${character.image}" alt="${character.name}">
-                    <h3>${character.name}</h3>
+            <a href="character-detail.html?id=${character.id}"></a>
+            <img src="${character.image}" alt="${character.name}">
+            <h3>${character.name}</h3>
                 `;
             gallery.appendChild(card);
         });

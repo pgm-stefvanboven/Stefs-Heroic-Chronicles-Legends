@@ -1,26 +1,68 @@
 [
     {
+        "id": 1,
         "name": "AngorRot",
-        "image": "assets/images/characters/AngorRot.png"
+        "image": "assets/images/characters/AngorRot.png",
+        "description": "This is the first character's description.",
+        "abilities": [
+            "Speed",
+            "Strength",
+            "Intelligence"
+        ]
     },
     {
+        "id": 2,
         "name": "Aquario",
-        "image": "assets/images/characters/Aquario.png"
+        "image": "assets/images/characters/Aquario.png",
+        "description": "This is the second character's description.",
+        "abilities": [
+            "Agility",
+            "Stealth",
+            "Endurance"
+        ]
     },
     {
+        "id": 3,
         "name": "Arthas",
-        "image": "assets/images/characters/Arthas.png"
+        "image": "assets/images/characters/Arthas.png",
+        "description": "This is the third character's description.",
+        "abilities": [
+            "Speed",
+            "Strength",
+            "Intelligence"
+        ]
     },
     {
+        "id": 4,
         "name": "DarkRider",
-        "image": "assets/images/characters/DarkRider.png"
+        "image": "assets/images/characters/DarkRider.png",
+        "description": "This is the fourth character's description.",
+        "abilities": [
+            "Agility",
+            "Stealth",
+            "Endurance"
+        ]
     },
     {
+        "id": 5,
         "name": "Garhum",
-        "image": "assets/images/characters/Garhum.png"
+        "image": "assets/images/characters/Garhum.png",
+        "description": "This is the fifth character's description.",
+        "abilities": [
+            "Speed",
+            "Strength",
+            "Intelligence"
+        ]
     },
     {
+        "id": 6,
         "name": "Godar",
-        "image": "assets/images/characters/Godar.png"
+        "image": "assets/images/characters/Godar.png",
+        "description": "This is the sixth character's description.",
+        "abilities": [
+            "Agility",
+            "Stealth",
+            "Endurance"
+        ]
     }
 ]
