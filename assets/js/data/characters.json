@@ -14,5 +14,13 @@
     {
         "name": "DarkRider",
         "image": "assets/images/characters/DarkRider.png"
+    },
+    {
+        "name": "Garhum",
+        "image": "assets/images/characters/Garhum.png"
+    },
+    {
+        "name": "Godar",
+        "image": "assets/images/characters/Godar.png"
     }
 ]
