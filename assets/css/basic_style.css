@@ -10,19 +10,29 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #2c2c54, #0f0f3c);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
     position: sticky;
     top: 0;
     z-index: 1000;
+    background: transparent;
+    /* Begin transparant */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+header.scrolled {
+    background: linear-gradient(135deg, #0f0f3c, #2c2c54);
+    /* Achtergrondkleur bij scrollen */
+    padding: 5px 20px;
+    /* Iets kleinere padding */
 }
 
 header img {
-    width: 100px;
+    width: 80px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -33,17 +43,20 @@ header img:hover {
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 header nav ul li {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: gold;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
+    font-weight: bold;
 }
 
 header nav ul li a:hover {
@@ -56,7 +69,25 @@ header nav ul li a:hover {
     position: relative;
     padding: 100px 20px;
     color: #fff;
+    margin: 0 auto;
+    background: linear-gradient(145deg, rgba(5, 9, 132, 0.6), rgba(64, 0, 0, 0.6));
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(5, 9, 132, 0.5),
+        0 0 40px rgba(5, 9, 132, 0.4),
+        0 0 60px rgba(255, 0, 132, 0.3);
+    animation: glow 3s infinite alternate;
 }
+
+/* Glow Animation Hergebruik */
+.hero h1,
+.hero p {
+    animation: fade-in 2s ease-in-out;
+}
+
+.hero .cta-button {
+    animation: glow 3s infinite alternate;
+}
+
 
 .hero h1 {
     font-size: 3rem;
